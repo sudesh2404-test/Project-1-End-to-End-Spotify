@@ -6,8 +6,6 @@ It's time to pull everything together I've learned during this course and comple
 
 - audio features of over 1.2 million songs obtained with the Spotify API
 
-Acknowledgements to [Rodolfo Figueroa](https://github.com/RodolfoFigueroa) for curating the dataset. Kaggle assigned the dataset a solid Usability score of 8.24 which is a good starting point. Whilst this is primarily a data engineering project I will also be carrying out some data pre-processing.
-
 Data logistics is no different from any other form of logistics, in that it will not be possible to move our data from source, in my case a [raw csv file held on Kaggle](https://www.kaggle.com/datasets/rodolfofigueroa/spotify-12m-songs) to destination, in my case [Looker Studio](https://lookerstudio.google.com/overview) without a few bumps along the way. But by carrying out some preliminary data exploration, and harnessing workflow orchestration tools, we can make the journey as smooth as possible.
 
 So sit back and enjoy the ride ;)
@@ -3400,13 +3398,3 @@ Hit `CONNECT` and we see our fields or columns are there with default settings a
 
 ![](images/blank_canvass.PNG)
 
-
-
-For a complete guide you can check out the [Looker Documentation](https://cloud.google.com/looker#section-5), but the console is very intuitive, and a few strokes of the brush (or clicks of the keyboard) and I was able to produce [this dashboard](https://lookerstudio.google.com/s/rdqSyyDxtu4) (screenshot included below if you can't access the link).
-    
-![](images/Looker.PNG)
-
-
-```python
-
-```
